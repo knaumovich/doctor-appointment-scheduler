@@ -7,18 +7,15 @@ permissions:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: miniprojekt/doctor-calendar
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version-file: miniprojekt/doctor-calendar/.nvmrc
+          node-version-file: .nvmrc
           cache: npm
           cache-dependency-path: |
-            miniprojekt/doctor-calendar/package-lock.json
-            miniprojekt/doctor-calendar/server/package-lock.json
+            package-lock.json
+            server/package-lock.json
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
