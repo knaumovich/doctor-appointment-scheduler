@@ -1,0 +1,140 @@
+{
+  "absences": [
+    {
+      "doctorId": "d1",
+      "fromDate": "2026-11-20",
+      "id": "e491336d-5c4c-48c8-88ef-870eccc1a77f",
+      "reason": "Planned absence",
+      "toDate": "2026-11-20"
+    }
+  ],
+  "availabilityRules": [
+    {
+      "date": "2026-11-18",
+      "doctorId": "d1",
+      "id": "2d64f844-36b7-4e1f-8fc6-ab893b37fd8d",
+      "kind": "ONE_TIME",
+      "ranges": [
+        {
+          "endMin": 1170,
+          "startMin": 420
+        }
+      ]
+    },
+    {
+      "daysMask": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "doctorId": "d1",
+      "fromDate": "2026-11-16",
+      "id": "30e427e5-34b6-4586-9772-837e6c93ee47",
+      "kind": "CYCLIC",
+      "ranges": [
+        {
+          "endMin": 750,
+          "startMin": 480
+        },
+        {
+          "endMin": 1290,
+          "startMin": 960
+        }
+      ],
+      "toDate": "2026-11-22"
+    },
+    {
+      "date": "2026-11-18",
+      "doctorId": "d1",
+      "id": "080545b6-7335-469b-96b5-15560ad171f3",
+      "kind": "ONE_TIME",
+      "ranges": [
+        {
+          "endMin": 750,
+          "startMin": 480
+        },
+        {
+          "endMin": 1290,
+          "startMin": 960
+        }
+      ]
+    }
+  ],
+  "bookedAppointments": [
+    {
+      "id": "c51c452d-e24e-4c7c-b0c1-0223f6d925c3",
+      "doctorId": "d1",
+      "start": "2026-11-19T07:00:00.000Z",
+      "end": "2026-11-19T07:30:00.000Z",
+      "type": "PRESCRIPTION",
+      "status": "BOOKED",
+      "patient": {
+        "id": "1ed61e06-da39-4ee3-ad06-171ba1ad47f6",
+        "name": "Jan Kowalski"
+      },
+      "documents": [],
+      "notes": "recepta na antybiotyk"
+    },
+    {
+      "doctorId": "d1",
+      "end": "2026-11-17T09:00:00.000Z",
+      "id": "a871700a-b215-44fe-986f-cf4d002402e8",
+      "notes": "",
+      "patient": {
+        "id": "a892b276-7ffb-43f9-8c0a-a51685ed7d82",
+        "name": "Maria Nowak"
+      },
+      "start": "2026-11-17T08:00:00.000Z",
+      "status": "BOOKED",
+      "type": "FOLLOW_UP"
+    },
+    {
+      "doctorId": "d1",
+      "end": "2026-11-18T10:00:00.000Z",
+      "id": "71e5c765-df33-4bb2-9435-99d43087778b",
+      "notes": "",
+      "patient": {
+        "id": "2f3e10ab-06a5-4ffe-a9ed-c54637355e7b",
+        "name": "Jan Kowalski"
+      },
+      "start": "2026-11-18T09:30:00.000Z",
+      "status": "BOOKED",
+      "type": "ONLINE"
+    },
+    {
+      "doctorId": "d1",
+      "end": "2026-11-21T17:30:00.000Z",
+      "id": "db7f0e5a-df11-43fb-8049-56a00917150f",
+      "notes": "",
+      "patient": {
+        "id": "31da8eff-1006-48d0-852c-1ad7147f88fe",
+        "name": "John Smith"
+      },
+      "start": "2026-11-21T16:00:00.000Z",
+      "status": "BOOKED",
+      "type": "CHRONIC"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "dr Jan Nowak",
+      "specialization": "Cardiologist"
+    },
+    {
+      "id": "d2",
+      "name": "dr Anna Zielinska",
+      "specialization": "Dermatologist"
+    }
+  ],
+  "meta": {
+    "version": 1,
+    "updatedAt": "2026-11-17T13:23:47.000Z"
+  },
+  "patients": [],
+  "appointments": [],
+  "appointmentsOverrides": [],
+  "notifications": [],
+  "broadcasts": []
+}

@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid"
+      }
+    },
+    "consultationsDb": {
+      "meta": {
+        ".read": "auth != null"
+      }
+    }
+  }
+}
