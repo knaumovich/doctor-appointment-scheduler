@@ -25,6 +25,10 @@ server/.env
 *.key
 
 # Editor directories and files
+# Local workspace configuration and credentials
+/.aws/
+/.codex/
+/.agents/
 .vscode/*
 !.vscode/extensions.json
 .idea
