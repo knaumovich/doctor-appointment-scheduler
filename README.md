@@ -30,41 +30,29 @@ Browse a doctor's schedule, available times, booked appointments, and absences.
 
 ![Weekly calendar showing a booked appointment and a doctor's absence](docs/screenshots/weekly-calendar.png)
 
-<details>
-<summary>Appointment booking</summary>
+### Appointment booking
 
 Choose an appointment type and duration, enter patient details, and add notes for the doctor.
 
 ![Appointment booking form with patient details and consultation notes](docs/screenshots/appointment-booking.png)
 
-</details>
-
-<details>
-<summary>Doctor schedule management</summary>
+### Doctor schedule management
 
 Set recurring or one-time availability and manage appointment hours alongside the calendar.
 
 ![Doctor schedule management with recurring availability and time ranges](docs/screenshots/schedule-management.png)
 
-</details>
-
-<details>
-<summary>Appointment cart and simulated payment</summary>
+### Appointment cart and simulated payment
 
 Review booked appointments and select unpaid visits for a simulated payment.
 
 ![Appointment cart showing an unpaid consultation and simulated payment form](docs/screenshots/appointment-cart.png)
 
-</details>
-
-<details>
-<summary>Administrator panel</summary>
+### Administrator panel
 
 Register doctor accounts and configure schedule storage and sign-in persistence.
 
 ![Administrator panel showing doctor registration and application settings](docs/screenshots/admin-panel.png)
-
-</details>
 
 ## Getting Started
 
